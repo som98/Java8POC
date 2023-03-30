@@ -3,7 +3,7 @@ package com.practice.som.otherStreamAPIfunc.MiniProject;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class All/None_AnyMatchExample {
+public class All_None_AnyMatchExample {
 
 	public static void main(String[] args) {
 
