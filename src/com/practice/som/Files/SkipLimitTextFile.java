@@ -6,7 +6,6 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class SkipLimitTextFile {
-
 	public static void main(String[] args) throws IOException {
 		
 		//Reading data from file into a List using nio.File
@@ -18,5 +17,4 @@ public class SkipLimitTextFile {
 		.limit(listData.size()-2)
 		.forEach(System.out::println);
 	}
-
 }

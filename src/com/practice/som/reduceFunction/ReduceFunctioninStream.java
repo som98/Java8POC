@@ -1,11 +1,8 @@
 package com.practice.som.reduceFunction;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class ReduceFunctioninStream {
-	
 	public static void main(String[] args) {
 		
 		List<Integer> list = List.of(4,6,89,9,23,1,12,56);
@@ -52,7 +49,6 @@ public class ReduceFunctioninStream {
 		System.out.println("Max Value: "+max1);
 	    */
 	}
-	
 
 	private static void findMin(List<Integer> list) {
 		int min= list.stream().reduce(Integer.MAX_VALUE, (a,b)-> a>b? b:a);
@@ -62,9 +58,5 @@ public class ReduceFunctioninStream {
 		/*int min1 = list.stream().reduce(Integer.MAX_VALUE, Integer::min);
 		System.out.println("Max Value: "+min1);
 		*/
-		
-		
 	}
-	
-
 }

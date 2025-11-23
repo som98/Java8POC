@@ -5,7 +5,6 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 public class ZonedDateTimeAPI {
-
 	public static void main(String[] args) {
 
 		ZonedDateTime date = ZonedDateTime.parse("2020-08-28T19:10:38.492+05:30[Asia/Kolkata]");
@@ -22,5 +21,4 @@ public class ZonedDateTimeAPI {
 		
 		System.out.println("Home Time: "+LocalDateTime.now());
 	}
-
 }

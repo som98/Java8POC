@@ -3,7 +3,6 @@ package com.practice.som.BiConsBiPredBiFunc;
 import java.util.function.BiPredicate;
 
 public class BiPredicateExample {
-
 	public static void main(String[] args) {
 
 		// Using Anonymous class approach
@@ -26,7 +25,5 @@ public class BiPredicateExample {
 		//Using and method
 		System.out.println("Two BiPredicate (using and) Palindrome via Lambda: "+ 
 				biPred2.and(biPred3).test("MOM", "MOM"));
-		
 	}
-
 }

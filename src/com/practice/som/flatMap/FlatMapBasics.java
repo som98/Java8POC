@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class FlatMapBasics {
-
 	public static void main(String[] args) {
 		
 		List<String> courses1 = List.of("Spring", "Spring Boot", "API" , "Microservices",
@@ -91,8 +90,5 @@ public class FlatMapBasics {
 		System.out.println(list6);
 		/* O/P-> [[Spring, Docker], [API, AWS], [API, PCF], [AWS, API], [AWS, PCF], [PCF, API], 
 		 * [PCF, AWS], [Docker, Spring]]*/
-
-		
 	}
-
 }

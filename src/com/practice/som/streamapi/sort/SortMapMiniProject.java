@@ -7,7 +7,6 @@ import java.util.TreeMap;
 import com.practice.som.streamapi.MiniProject.Employee;
 
 public class SortMapMiniProject {
-
 	public static void main(String[] args) {
 
 		// Sorting a Map w.r.t to a Key - field(here - Salary) using traditional way - (Comparator sort)
@@ -37,5 +36,4 @@ public class SortMapMiniProject {
 		
 		System.out.println(empMap);
 	}
-
 }

@@ -5,7 +5,6 @@ interface SingleParamLambdaFunc {
 }
 
 public class SingleParamLambdaFuncImpl{
-
     public static void main(String[] args) {
 
         SingleParamLambdaFunc sp= (int input) -> System.out.println("Number : "+input);

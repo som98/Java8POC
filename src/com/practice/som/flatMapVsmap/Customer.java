@@ -54,5 +54,4 @@ public class Customer {
 		return "Customer [empid=" + empid + ", name=" + name + ", email=" + email + ", phoneNumbers=" + phoneNumbers
 				+ "]";
 	}
-
 }

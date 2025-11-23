@@ -8,7 +8,6 @@ import com.practice.som.streamapi.MiniProject.Employee;
 import com.practice.som.streamapi.MiniProject.EmployeeDAO;
 
 public class SortListDemo {
-
 	public static void main(String[] args) {
 
 		List<Integer> list = new ArrayList<>();
@@ -62,7 +61,6 @@ public class SortListDemo {
 		emp.stream().sorted(Comparator.comparing(Employee::getSalary)).forEach(System.out::println); // Ascending by Default
 
 	}
-
 }
 
 //Traditional Comparator way by creating a separate class - 1

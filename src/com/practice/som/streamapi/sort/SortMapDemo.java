@@ -2,14 +2,12 @@ package com.practice.som.streamapi.sort;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
 public class SortMapDemo {
-
 	public static void main(String[] args) {
 
 		Map<String, Integer> map = new HashMap<>();
@@ -55,5 +53,4 @@ public class SortMapDemo {
 		map.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
 
 	}
-
 }

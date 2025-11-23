@@ -38,5 +38,4 @@ public class BiConsumerExample implements BiConsumer<String, Integer> {
 		biCons3.accept("Som", 798);
 		
 	}
-
 }

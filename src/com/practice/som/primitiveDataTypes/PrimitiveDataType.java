@@ -1,10 +1,9 @@
-package com.practice.som.others;
+package com.practice.som.primitiveDataTypes;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class PrimitiveDataType {
-
 	public static void main(String[] args) {
 
 		// To display int (primitive data type) numbers from 1 to 9
@@ -30,7 +29,5 @@ public class PrimitiveDataType {
 				.limit(10)
 				.boxed()
 				.collect(Collectors.toList()));
-
 	}
-
 }

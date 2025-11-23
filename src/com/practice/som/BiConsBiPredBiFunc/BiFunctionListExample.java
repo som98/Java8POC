@@ -1,6 +1,5 @@
 package com.practice.som.BiConsBiPredBiFunc;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.stream.Collectors;
@@ -55,7 +54,5 @@ public class BiFunctionListExample implements BiFunction<List<Integer>, List<Int
 				.flatMap(List::stream).distinct().toList();
 		
 		System.out.println("Lambda approach: "+ biFunction3.apply(l1, l2));
-		
 	}
-
 }

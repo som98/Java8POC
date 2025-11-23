@@ -3,7 +3,6 @@ package com.practice.som.OptionalClass;
 import java.util.Optional;
 
 public class Optional_DemoBasics2 {
-
 	public static void main(String[] args) {
 		String words[] = new String[10];
 		words[5] = "Hello Som";
@@ -15,5 +14,4 @@ public class Optional_DemoBasics2 {
 		System.out.println(checkWords.get());		// printing value by using get method 
 		System.out.println(words[5].toLowerCase());
 	}
-
 }

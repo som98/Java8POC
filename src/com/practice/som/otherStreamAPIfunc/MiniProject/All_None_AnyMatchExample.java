@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class All_None_AnyMatchExample {
-
 	public static void main(String[] args) {
 
 		List<Course> courses = CourseDAO.getAlldetails();
@@ -36,5 +35,4 @@ public class All_None_AnyMatchExample {
 		System.out.println(courses.stream().anyMatch(PredicateReviewScoreGreaterThan95));
 		// Returns "true" as it can find atleast one > 95
 	}
-
 }

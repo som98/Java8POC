@@ -7,7 +7,6 @@ import java.time.ZoneId;
 import java.util.Date;
 
 public class DateToJavaTime {
-
 	public static void main(String[] args) {
 
 		Date date = new Date();
@@ -22,7 +21,5 @@ public class DateToJavaTime {
 		// 1. Convert Date -> Instant
 		Instant instant = date.toInstant();
 		System.out.println("instant : " + instant);
-
 	}
-
 }

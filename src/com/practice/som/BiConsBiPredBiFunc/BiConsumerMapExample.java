@@ -26,14 +26,11 @@ public class BiConsumerMapExample {
 			}
 		};
 		map.forEach(biCons1);
-		
-		
+
 		
 		// Using Lambda Function approach
 		BiConsumer<String, Integer> biCons2=  (i1, i2) -> System.out.println("Key : " +i1 + " , Value : " + i2);
 		
 		map.forEach(biCons2);
-
 	}
-
 }

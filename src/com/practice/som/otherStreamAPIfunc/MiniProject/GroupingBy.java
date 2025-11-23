@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class GroupingBy {
-
 	public static void main(String[] args) {
 
 		List<Course> course = CourseDAO.getAlldetails();
@@ -39,5 +38,4 @@ public class GroupingBy {
 		/* O/P-> {Cloud=[AWS, Azure, Docker, Kubernetes], FullStack=[FullStack], 
 		 * Microservices=[API, Microservices], Framework=[Spring, Spring Boot]}*/
 	}
-
 }

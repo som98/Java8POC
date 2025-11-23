@@ -1,11 +1,8 @@
 package com.practice.som.parallelStream.MiniProject;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.OptionalDouble;
 
 public class ParallelStreamProjectExample {
-	
 	public static void main(String[] args) {
 		
 		long start = 0;
@@ -28,5 +25,4 @@ public class ParallelStreamProjectExample {
 		System.out.println("Parallel Stream execution time : "+ (end-start));
 		System.out.println("Parallel Stream Salary Average : "+ parallelStreamSalary);
 	}
-
 }

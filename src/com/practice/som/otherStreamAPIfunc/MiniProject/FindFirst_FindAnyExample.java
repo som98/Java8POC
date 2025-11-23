@@ -6,7 +6,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class FindFirst_FindAnyExample {
-
 	public static void main(String[] args) {
 
 		List<Course> course = CourseDAO.getAlldetails();
@@ -38,5 +37,4 @@ public class FindFirst_FindAnyExample {
 				.findAny());
 		/* O/P-> Optional[Spring:Framework:98:20000]*/
 	}
-
 }

@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CustomerDAO {
-	
 	public static List<Customer> getAllDetails(){
 		
 		List<Customer> list = new ArrayList<>();
@@ -24,8 +23,6 @@ public class CustomerDAO {
 	                new Customer(103, "peter", "peter@gmail.com", Arrays.asList("38946328654", "3286487236")),
 	                new Customer(104, "kely", "kely@gmail.com", Arrays.asList("389246829364", "948609467"))
 	        ).collect(Collectors.toList());
-	        */	
-		
+	        */
 	}
-
 }

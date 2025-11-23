@@ -37,7 +37,4 @@ public class Employee {
 		this.grade = grade;
 		this.salary = salary;
 	}
-	
-	
-
 }

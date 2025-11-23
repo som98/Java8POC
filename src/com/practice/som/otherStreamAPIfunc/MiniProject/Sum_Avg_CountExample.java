@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Sum_Avg_CountExample {
-
 	public static void main(String[] args) {
 		
 		List<Course> course = CourseDAO.getAlldetails();
@@ -46,7 +45,5 @@ public class Sum_Avg_CountExample {
 				.mapToInt(Course::getNoOfStudents)
 				.min());
 		/* O/P-> OptionalInt[20000] */
-
 	}
-
 }

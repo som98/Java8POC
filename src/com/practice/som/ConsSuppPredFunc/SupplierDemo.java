@@ -12,7 +12,6 @@ import java.util.function.Supplier;
         return "Hi Som";
     }*/
 public class SupplierDemo{
-
     public static void main(String[] args) {
         Supplier<String> sup = () -> "Hi Som";
         System.out.println(sup.get());

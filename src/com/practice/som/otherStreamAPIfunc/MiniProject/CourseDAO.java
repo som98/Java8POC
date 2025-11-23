@@ -1,11 +1,8 @@
 package com.practice.som.otherStreamAPIfunc.MiniProject;
 
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class CourseDAO {
-
 	public static List<Course> getAlldetails(){
 		
 		return List.of(new Course("Spring", "Framework", 98, 20000),
@@ -33,5 +30,4 @@ public class CourseDAO {
 			.collect(Collectors.toList());
 			*/
 	}
-	
 }

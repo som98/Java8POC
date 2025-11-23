@@ -3,9 +3,7 @@ package com.practice.som.parallelStream;
 import java.util.stream.IntStream;
 
 public class ParallelStreamExample {
-
 	public static void main(String[] args) {
-
 
 		long start = 0;
 		long end = 0;
@@ -26,7 +24,5 @@ public class ParallelStreamExample {
 		
 		System.out.println("Plain stream took time : "+ plainStream);
 		System.out.println("Parallel stream took time : "+ parallelStream);
-
 	}
-
 }

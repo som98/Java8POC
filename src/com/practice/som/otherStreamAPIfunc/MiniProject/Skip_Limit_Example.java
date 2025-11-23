@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Skip_Limit_Example {
-
 	public static void main(String[] args) {
 
 		List<Course> course = CourseDAO.getAlldetails();
@@ -49,5 +48,4 @@ public class Skip_Limit_Example {
 		/* <O/P>-> [Docker:Cloud:92:20000, Spring:Framework:98:20000, AWS:Cloud:92:21000]*/
 		
 	}
-
 }

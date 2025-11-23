@@ -16,7 +16,6 @@ import java.util.function.Predicate;
     }*/
 
 public class PredicateDemo{
-
     public static void main(String[] args) {
     	
     	//Implementing Predicate by lambda function showing detailed code
@@ -40,8 +39,5 @@ public class PredicateDemo{
         
         //To check all the values in the list w.r.t. a Predicate function
         list.stream().filter(pr).forEach(integer -> System.out.println("Print Even : "+integer));
-
-        
-
     }
 }

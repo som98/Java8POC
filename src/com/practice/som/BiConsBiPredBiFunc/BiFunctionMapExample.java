@@ -2,10 +2,8 @@ package com.practice.som.BiConsBiPredBiFunc;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.BiFunction;
 
 public class BiFunctionMapExample {
-
 	public static void main(String[] args) {
 
 		Map<String, Integer> map = new HashMap<>();
@@ -26,16 +24,14 @@ public class BiFunctionMapExample {
 
 		 map.replaceAll(increasedbf);
 		*/
-		
+
 		// Lambda approach
 		// BiFunction<String, Integer, Integer> increasedbf_lambda = (key, value) -> value + 1000;
 		// map.replaceAll(increasedbf_lambda);
-		
-		
+
+
 		// Simplest approach
 		map.replaceAll((key, value) -> value + 1000);
 		System.out.println(map);
-
 	}
-
 }

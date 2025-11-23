@@ -6,7 +6,6 @@ interface MultiParamLambdaFunc {
 }
 
 public class MultiParamLambdaFuncImpl {
-
     public static void main(String[] args) {
 
         MultiParamLambdaFunc mp= (a,b,c) ->  (a+b+c);        // One liner return type

@@ -6,7 +6,6 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 public class LocalDateTimeExamples {
-
 	public static void main(String[] args) {
 
 		// Convert string to local date time
@@ -26,7 +25,5 @@ public class LocalDateTimeExamples {
 		System.out.println("Instant : " + instant);
 		LocalDateTime ldt = LocalDateTime.ofInstant(instant, ZoneOffset.UTC);
 		System.out.println("LocalDateTime : " + ldt);
-
 	}
-
 }

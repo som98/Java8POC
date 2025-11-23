@@ -2,12 +2,10 @@ package com.practice.som.Files;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 
 public class TextFileExample {
-
 	public static void main(String[] args) throws IOException {
 
 		// To read any file using Functional programming
@@ -32,11 +30,9 @@ public class TextFileExample {
 		
 		System.out.println("==========================================");
 		
-		// // Displays only the folders under the root directory
+		// Displays only the folders under the root directory
 		Files.list(Paths.get("."))
 		.filter(Files::isDirectory)
 		.forEach(System.out::println);
-		
 	}
-
 }

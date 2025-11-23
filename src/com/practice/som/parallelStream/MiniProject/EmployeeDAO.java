@@ -3,10 +3,8 @@ package com.practice.som.parallelStream.MiniProject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.stream.Collectors;
 
 public class EmployeeDAO {
-	
 	public static List<Employee> getEmployeeDetails(){
 		
 		List<Employee> employees = new ArrayList<>();
@@ -18,5 +16,4 @@ public class EmployeeDAO {
 		
 		return employees;
 	}
-
 }

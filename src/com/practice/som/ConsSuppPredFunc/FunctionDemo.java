@@ -1,7 +1,6 @@
 package com.practice.som.ConsSuppPredFunc;
 
 import java.util.List;
-import java.util.function.Function;
 
 //Using traditional way of implementing Function Functional Interface
 /*public class FunctionDemo implements Function<Integer, Integer>{
@@ -13,7 +12,6 @@ import java.util.function.Function;
 */
 
 public class FunctionDemo{
-
 	public static void main(String[] args) {
 		
 		/*FunctionDemo f = new FunctionDemo();
@@ -41,9 +39,5 @@ public class FunctionDemo{
 		
 		//Simplified way to use a Function in map
 		numbers.stream().filter(t->t%2==0).map(t->t*t).forEach(System.out::println);
-		
-
 	}
-
-	
 }

@@ -15,7 +15,6 @@ import java.util.function.Consumer;
 	}
 	*/
 public class ConsumerDemo {
-	
 	public static void main(String[] args) {
 
 		// Creating an object to use the accept method by lambda function
@@ -28,7 +27,5 @@ public class ConsumerDemo {
 		// Displaying each elements by invoking the Consumer function through Stream and
 		// Lambda func (simplified way)
 		list.stream().forEach(t -> System.out.println("print: " + t));
-
 	}
-
 }

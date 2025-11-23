@@ -11,24 +11,16 @@ import java.util.Date;
 //Simple example to use the new API for Date and Time operations.
 public class CurrentDateTime {
 
-	private static final DateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss"); // DateFormat can also show the
-																						// Time
-																						// and is used to display the
-																						// result in a
-																						// particular format.
+	// DateFormat can also show the Time and is used to display the result in a particular format.
+	private static final DateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
 	// SimpleDateFormat
-	// Processing to convert from Date to String. Pass java.util.Date type as an
-	// argument to format method.
+	// Processing to convert from Date to String. Pass java.util.Date type as an argument to format method.
 
-	private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss"); // Works almost
-																										// similar to
-																										// DateFormat
-																										// but has
-																										// different
-																										// characteristics
-	// DateTimeFormatter
-	// Pass TemporalAccessor as an argument to the format method (LocalDateTime)
+	// Works almost similar to DateFormat but has different characteristics
+
+	// DateTimeFormatter - Pass TemporalAccessor as an argument to the format method (LocalDateTime)
+	private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 
 	public static void main(String[] args) {
 
@@ -56,5 +48,4 @@ public class CurrentDateTime {
 		System.out.println(localDatenow); 						// 2023-03-12
 		System.out.println(DateTimeFormatter.ofPattern("yyyy/MM/dd").format(localDatenow));	 // 2023/03/12
 	}
-
 }

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookDAO {
-
     public List<Book> getBooks()
     {
         List<Book> books = new ArrayList<>();

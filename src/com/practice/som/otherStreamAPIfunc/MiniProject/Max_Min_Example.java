@@ -6,7 +6,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Max_Min_Example {
-
 	public static void main(String[] args) {
 		
 		List<Course> course = CourseDAO.getAlldetails();
@@ -66,5 +65,4 @@ public class Max_Min_Example {
 		/* O/P-> GCP:Cloud:94:17000*/
 		
 	}
-
 }

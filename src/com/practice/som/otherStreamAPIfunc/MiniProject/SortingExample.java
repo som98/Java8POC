@@ -5,9 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SortingExample {
-
 	public static void main(String[] args) {
-
 
 		List<Course> course = CourseDAO.getAlldetails();
 		
@@ -39,8 +37,5 @@ public class SortingExample {
 				System.out.println(course.stream()
 						.sorted(comparingByNoOfStudentsAndReviewScoreIncreasing)
 						.collect(Collectors.toList()));
-		
-		
 	}
-
 }

@@ -52,8 +52,4 @@ public class Course {
 		return name + ":" + category + ":" + reviewScore + ":" + noOfStudents ;
 	}
 	
-	
-	
-	
-	
 }
